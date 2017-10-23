@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.cursive-font {
+  font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
