@@ -8,6 +8,29 @@
   }
 }
 
+@media (min-width: 770px){
+  .navbar-content{
+    width: 770px !important;
+  }
+}
+
+@media (min-width: 1000px){
+  .navbar {
+    background: transparent !important;
+    height: 90px !important;
+  }
+  .logo {
+    font-size: 36px !important;
+  }
+  .menu-button {
+    display: none !important;
+  }
+  .navbar-content {
+    width: 100% !important;
+    transition: 0.4s ease-in-out;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
