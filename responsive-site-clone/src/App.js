@@ -7,9 +7,11 @@ class App extends Component {
     return (
       <div className="App">
         <div className="navbar">
-          <div className="logo cursive-font">Boot Startstrap</div>
-          <div className="menu-button">
-            MENU<i className="fa fa-bars"></i>
+          <div className="navbar-content">
+            <div className="logo cursive-font">Boot Startstrap</div>
+            <div className="menu-button">
+              MENU<i className="fa fa-bars"></i>
+            </div>
           </div>
         </div>
       </div>
