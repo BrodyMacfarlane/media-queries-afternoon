@@ -18,9 +18,11 @@
   .navbar {
     background: transparent !important;
     height: 90px !important;
+    transition: 0.4s ease-in-out;
+    transition-property: height;
   }
   .logo {
-    font-size: 36px !important;
+    font-size: 30px !important;
   }
   .menu-button {
     display: none !important;
