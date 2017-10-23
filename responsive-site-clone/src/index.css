@@ -1,6 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+/* MEDIA QUERIES */
+
+@media (min-width: 600px){
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    height: 56px;
+    font-size: 20px;
+  }
+
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    width: 313px;
+  }
+
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +39,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.navbar-content {
+  width: 100%;
 }
 
 .logo {
