@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
   margin: 0;
@@ -7,4 +8,36 @@ body {
 
 .cursive-font {
   font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+
+.navbar {
+  background-color: #212529;
+  height: 56px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fed136;
+  margin-left: 24px;
+}
+
+.logo:hover {
+  color: #f3c633;
+}
+
+.menu-button {
+  color: #FFF;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  margin-right: 24px;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 9px;
+}
+
+.menu-button * {
+  margin: 3px;
 }
