@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
 
 /* MEDIA QUERIES */
 @media (min-width: 600px){
@@ -31,6 +32,11 @@
     width: 100% !important;
     transition: 0.4s ease-in-out;
   }
+  .links {
+    display: flex !important;  
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 body {
@@ -40,6 +46,51 @@ body {
 
 .cursive-font {
   font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+
+.landing {
+  background-image: url('./header-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  color: white;
+}
+
+.landing button {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  background-color: #FDCF48;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  height: 69px;
+  width: 219px;
+}
+
+.cta-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.cta-content * {
+  margin: 0 0 30px 0;
+}
+
+.landing h1 {
+  font-size: 50px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 50px;
+}
+
+.landing h2 {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-style: italic;
 }
 
 .navbar {
@@ -68,6 +119,14 @@ body {
 
 .logo:hover {
   color: #f3c633;
+}
+
+.links {
+  display: none;
+  width: 45%;
+  font-size: 14px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-right: 35px;
 }
 
 .menu-button {
