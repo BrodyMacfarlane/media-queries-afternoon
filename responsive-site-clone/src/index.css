@@ -2,34 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 /* MEDIA QUERIES */
-<<<<<<< HEAD
-
 @media (min-width: 600px){
-
-  .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #212529;
-    height: 56px;
-    font-size: 20px;
-  }
-
   .navbar-content {
-    display: flex;
-    justify-content: space-between;
-    width: 313px;
+    width: 600px !important;
   }
-
 }
 
-
-=======
-@media (min-width: 600px) {
-  
-  }
-
->>>>>>> 5e359e047a459dd11ade7443aa09f736e0e63c2d
 body {
   margin: 0;
   padding: 0;
@@ -51,7 +29,7 @@ body {
 .navbar-content {
   display: flex;
   justify-content: space-between;
-  width: 313px;
+  width: 100%;
 }
 
 .navbar-content {
